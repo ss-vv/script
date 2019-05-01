@@ -2,344 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d646784-faf5-4a2e-8014-a377c112d848" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/script.iml" afterPath="$PROJECT_DIR$/.idea/script.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/app_update_new.sh" afterPath="$PROJECT_DIR$/common/app_update_new.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/color-to-node.sh" afterPath="$PROJECT_DIR$/common/color-to-node.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/conf.sh" afterPath="$PROJECT_DIR$/common/conf.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/fuction.sh" afterPath="$PROJECT_DIR$/common/fuction.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/function.sh" afterPath="$PROJECT_DIR$/common/function.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/package_batch.sh" afterPath="$PROJECT_DIR$/common/package_batch.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/service_stop_new.sh" afterPath="$PROJECT_DIR$/common/service_stop_new.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/tomcat_stop_start_new.sh" afterPath="$PROJECT_DIR$/common/tomcat_stop_start_new.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/unpackage.py" afterPath="$PROJECT_DIR$/common/unpackage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common_B/app-bak-incr.sh" afterPath="$PROJECT_DIR$/common_B/app-bak-incr.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common_B/app-restore.sh" afterPath="$PROJECT_DIR$/common_B/app-restore.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common_B/app-update.sh" afterPath="$PROJECT_DIR$/common_B/app-update.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common_B/color-to-node.sh" afterPath="$PROJECT_DIR$/common_B/color-to-node.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common_B/conf.sh" afterPath="$PROJECT_DIR$/common_B/conf.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common_B/ngx-upstream.sh" afterPath="$PROJECT_DIR$/common_B/ngx-upstream.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common_B/package.sh" afterPath="$PROJECT_DIR$/common_B/package.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common_B/service-stop.sh" afterPath="$PROJECT_DIR$/common_B/service-stop.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common_B/tomcat-stop-start.sh" afterPath="$PROJECT_DIR$/common_B/tomcat-stop-start.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common_B/unpackage.py" afterPath="$PROJECT_DIR$/common_B/unpackage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dba/first_slave_status.sh" afterPath="$PROJECT_DIR$/dba/first_slave_status.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dba/pbsql.sh" afterPath="$PROJECT_DIR$/dba/pbsql.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dba/pg_clean_log.sh" afterPath="$PROJECT_DIR$/dba/pg_clean_log.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dba/pg_connection_count.sh" afterPath="$PROJECT_DIR$/dba/pg_connection_count.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dba/pgsql.sh" afterPath="$PROJECT_DIR$/dba/pgsql.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dba/phy_backup_status.sh" afterPath="$PROJECT_DIR$/dba/phy_backup_status.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dba/second_slave_status.sh" afterPath="$PROJECT_DIR$/dba/second_slave_status.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domain_check/DomainCheck.py" afterPath="$PROJECT_DIR$/domain_check/DomainCheck.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domain_check/dist.sh" afterPath="$PROJECT_DIR$/domain_check/dist.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domain_check/domain-check.ini" afterPath="$PROJECT_DIR$/domain_check/domain-check.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domain_check/logging.conf" afterPath="$PROJECT_DIR$/domain_check/logging.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domain_check/restart.sh" afterPath="$PROJECT_DIR$/domain_check/restart.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domain_check/start.sh" afterPath="$PROJECT_DIR$/domain_check/start.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domain_check/status.sh" afterPath="$PROJECT_DIR$/domain_check/status.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domain_check/stop.sh" afterPath="$PROJECT_DIR$/domain_check/stop.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/container_info.sh" afterPath="$PROJECT_DIR$/gb/container_info.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/dev/3rd_create.sh" afterPath="$PROJECT_DIR$/gb/dev/3rd_create.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/dev/_variable.sh" afterPath="$PROJECT_DIR$/gb/dev/_variable.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/dev/conf.sh" afterPath="$PROJECT_DIR$/gb/dev/conf.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/dev/docker_pull.sh" afterPath="$PROJECT_DIR$/gb/dev/docker_pull.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/dev/docker_rmi.sh" afterPath="$PROJECT_DIR$/gb/dev/docker_rmi.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/dev/gb_create.sh" afterPath="$PROJECT_DIR$/gb/dev/gb_create.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/dev/gb_restart.sh" afterPath="$PROJECT_DIR$/gb/dev/gb_restart.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/dev/gb_tomcat_start.sh" afterPath="$PROJECT_DIR$/gb/dev/gb_tomcat_start.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/dev/gb_tomcat_stop.sh" afterPath="$PROJECT_DIR$/gb/dev/gb_tomcat_stop.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/dev/gb_update.sh" afterPath="$PROJECT_DIR$/gb/dev/gb_update.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/dev/package.sh" afterPath="$PROJECT_DIR$/gb/dev/package.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/dev/package_batch.sh" afterPath="$PROJECT_DIR$/gb/dev/package_batch.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/dev/postgres_boss.sh" afterPath="$PROJECT_DIR$/gb/dev/postgres_boss.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/dev/postgres_sites01.sh" afterPath="$PROJECT_DIR$/gb/dev/postgres_sites01.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/dev/recover_release.sh" afterPath="$PROJECT_DIR$/gb/dev/recover_release.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/dev/release_bak.sh" afterPath="$PROJECT_DIR$/gb/dev/release_bak.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/dev/release_dev.sh" afterPath="$PROJECT_DIR$/gb/dev/release_dev.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/dev/tengine_create.sh" afterPath="$PROJECT_DIR$/gb/dev/tengine_create.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/dev/tengine_reload.sh" afterPath="$PROJECT_DIR$/gb/dev/tengine_reload.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/dev/tengine_restart.sh" afterPath="$PROJECT_DIR$/gb/dev/tengine_restart.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/dev/tengine_update.sh" afterPath="$PROJECT_DIR$/gb/dev/tengine_update.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/execAll.sh" afterPath="$PROJECT_DIR$/gb/execAll.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/00-package.sh" afterPath="$PROJECT_DIR$/gb/live/00-package.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/01-all-release.sh" afterPath="$PROJECT_DIR$/gb/live/01-all-release.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/03-new-all-release.sh" afterPath="$PROJECT_DIR$/gb/live/03-new-all-release.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/10-app-bak-incr.sh" afterPath="$PROJECT_DIR$/gb/live/10-app-bak-incr.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/11-app-restore.sh" afterPath="$PROJECT_DIR$/gb/live/11-app-restore.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/3rd_create.sh" afterPath="$PROJECT_DIR$/gb/live/3rd_create.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/_variable.sh" afterPath="$PROJECT_DIR$/gb/live/_variable.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/app_update_new.sh" afterPath="$PROJECT_DIR$/gb/live/app_update_new.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/bak_release.sh" afterPath="$PROJECT_DIR$/gb/live/bak_release.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/conf.sh" afterPath="$PROJECT_DIR$/gb/live/conf.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/docker_pull.sh" afterPath="$PROJECT_DIR$/gb/live/docker_pull.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/docker_rmi.sh" afterPath="$PROJECT_DIR$/gb/live/docker_rmi.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/gather_client_tomcat_restart.sh" afterPath="$PROJECT_DIR$/gb/live/gather_client_tomcat_restart.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/gather_client_tomcat_start.sh" afterPath="$PROJECT_DIR$/gb/live/gather_client_tomcat_start.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/gather_client_tomcat_stop.sh" afterPath="$PROJECT_DIR$/gb/live/gather_client_tomcat_stop.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/gb_backup_incr.sh" afterPath="$PROJECT_DIR$/gb/live/gb_backup_incr.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/gb_create.sh" afterPath="$PROJECT_DIR$/gb/live/gb_create.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/gb_init_site.sh" afterPath="$PROJECT_DIR$/gb/live/gb_init_site.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/gb_init_site_one.sh" afterPath="$PROJECT_DIR$/gb/live/gb_init_site_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/gb_release_incr.sh" afterPath="$PROJECT_DIR$/gb/live/gb_release_incr.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/gb_reload.sh" afterPath="$PROJECT_DIR$/gb/live/gb_reload.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/gb_restart.sh" afterPath="$PROJECT_DIR$/gb/live/gb_restart.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/gb_revert_incr.sh" afterPath="$PROJECT_DIR$/gb/live/gb_revert_incr.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/gb_schdule_restart.sh" afterPath="$PROJECT_DIR$/gb/live/gb_schdule_restart.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/gb_schdule_restart_one.sh" afterPath="$PROJECT_DIR$/gb/live/gb_schdule_restart_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/gb_schdule_stop.sh" afterPath="$PROJECT_DIR$/gb/live/gb_schdule_stop.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/gb_schdule_stop_one.sh" afterPath="$PROJECT_DIR$/gb/live/gb_schdule_stop_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/gb_server_stop.sh" afterPath="$PROJECT_DIR$/gb/live/gb_server_stop.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/gb_server_stop_one.sh" afterPath="$PROJECT_DIR$/gb/live/gb_server_stop_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/gb_tomcat_start.sh" afterPath="$PROJECT_DIR$/gb/live/gb_tomcat_start.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/gb_tomcat_stop.sh" afterPath="$PROJECT_DIR$/gb/live/gb_tomcat_stop.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/gb_update.sh" afterPath="$PROJECT_DIR$/gb/live/gb_update.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/gb_web_index.sh" afterPath="$PROJECT_DIR$/gb/live/gb_web_index.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/gb_web_index_one.sh" afterPath="$PROJECT_DIR$/gb/live/gb_web_index_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/no_catalina_log.sh" afterPath="$PROJECT_DIR$/gb/live/no_catalina_log.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/package.sh" afterPath="$PROJECT_DIR$/gb/live/package.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/package_batch.sh" afterPath="$PROJECT_DIR$/gb/live/package_batch.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/recover_release.sh" afterPath="$PROJECT_DIR$/gb/live/recover_release.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/release.sh" afterPath="$PROJECT_DIR$/gb/live/release.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/release_api_impl_jars.sh" afterPath="$PROJECT_DIR$/gb/live/release_api_impl_jars.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/release_ftl_one.sh" afterPath="$PROJECT_DIR$/gb/live/release_ftl_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/release_one.sh" afterPath="$PROJECT_DIR$/gb/live/release_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/release_pay_impl_jars.sh" afterPath="$PROJECT_DIR$/gb/live/release_pay_impl_jars.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/replaceUpstream.sh" afterPath="$PROJECT_DIR$/gb/live/replaceUpstream.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/replaceUpstream_a.sh" afterPath="$PROJECT_DIR$/gb/live/replaceUpstream_a.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/replaceUpstream_one.sh" afterPath="$PROJECT_DIR$/gb/live/replaceUpstream_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/service_stop_new.sh" afterPath="$PROJECT_DIR$/gb/live/service_stop_new.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/tengine_create.sh" afterPath="$PROJECT_DIR$/gb/live/tengine_create.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/tengine_reload.sh" afterPath="$PROJECT_DIR$/gb/live/tengine_reload.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/tengine_restart.sh" afterPath="$PROJECT_DIR$/gb/live/tengine_restart.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/tengine_update.sh" afterPath="$PROJECT_DIR$/gb/live/tengine_update.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/tomcat_start_new.sh" afterPath="$PROJECT_DIR$/gb/live/tomcat_start_new.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/tomcat_stop_new.sh" afterPath="$PROJECT_DIR$/gb/live/tomcat_stop_new.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live2/00-gb_package.sh" afterPath="$PROJECT_DIR$/gb/live2/00-gb_package.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live2/01-gb_release.sh" afterPath="$PROJECT_DIR$/gb/live2/01-gb_release.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live2/10-app-bak-incr.sh" afterPath="$PROJECT_DIR$/gb/live2/10-app-bak-incr.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live2/11-app-restore.sh" afterPath="$PROJECT_DIR$/gb/live2/11-app-restore.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live2/_variable.sh" afterPath="$PROJECT_DIR$/gb/live2/_variable.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live2/app_update_new.sh" afterPath="$PROJECT_DIR$/gb/live2/app_update_new.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live2/bak-release.sh" afterPath="$PROJECT_DIR$/gb/live2/bak-release.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live2/conf.sh" afterPath="$PROJECT_DIR$/gb/live2/conf.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live2/gb_app-update.sh" afterPath="$PROJECT_DIR$/gb/live2/gb_app-update.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live2/gb_ngx-upstream.sh" afterPath="$PROJECT_DIR$/gb/live2/gb_ngx-upstream.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live2/gb_tomcat-stop-start.sh" afterPath="$PROJECT_DIR$/gb/live2/gb_tomcat-stop-start.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live2/service_stop_new.sh" afterPath="$PROJECT_DIR$/gb/live2/service_stop_new.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live2/tomcat_start_new.sh" afterPath="$PROJECT_DIR$/gb/live2/tomcat_start_new.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live2/tomcat_stop_new.sh" afterPath="$PROJECT_DIR$/gb/live2/tomcat_stop_new.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/3rd-2.sh" afterPath="$PROJECT_DIR$/gb/out/3rd-2.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/3rd-3.sh" afterPath="$PROJECT_DIR$/gb/out/3rd-3.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/3rd_nginxReload.sh" afterPath="$PROJECT_DIR$/gb/out/3rd_nginxReload.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/_add_hosts.sh" afterPath="$PROJECT_DIR$/gb/out/_add_hosts.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/_cancel_maintenance.sh" afterPath="$PROJECT_DIR$/gb/out/_cancel_maintenance.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/_git_pull.sh" afterPath="$PROJECT_DIR$/gb/out/_git_pull.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/_git_pull_adm.sh" afterPath="$PROJECT_DIR$/gb/out/_git_pull_adm.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/_git_pull_py.sh" afterPath="$PROJECT_DIR$/gb/out/_git_pull_py.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/_nginxReload.sh" afterPath="$PROJECT_DIR$/gb/out/_nginxReload.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/_nginxReload_adm.sh" afterPath="$PROJECT_DIR$/gb/out/_nginxReload_adm.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/_open_maintenance.sh" afterPath="$PROJECT_DIR$/gb/out/_open_maintenance.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/_out_build.sh" afterPath="$PROJECT_DIR$/gb/out/_out_build.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/_out_run.sh" afterPath="$PROJECT_DIR$/gb/out/_out_run.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/_out_statics_clean.sh" afterPath="$PROJECT_DIR$/gb/out/_out_statics_clean.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/_print_anti.sh" afterPath="$PROJECT_DIR$/gb/out/_print_anti.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/add_hosts.sh" afterPath="$PROJECT_DIR$/gb/out/add_hosts.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/adm_nginxReload.sh" afterPath="$PROJECT_DIR$/gb/out/adm_nginxReload.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/cancel_maintenance.sh" afterPath="$PROJECT_DIR$/gb/out/cancel_maintenance.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/cf/purgeCacheBySiteId.py" afterPath="$PROJECT_DIR$/gb/out/cf/purgeCacheBySiteId.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/close_R/3rd_variable.sh" afterPath="$PROJECT_DIR$/gb/out/close_R/3rd_variable.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/close_R/adm_variable.sh" afterPath="$PROJECT_DIR$/gb/out/close_R/adm_variable.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/close_R/out_3rd_replaceUpstream.sh" afterPath="$PROJECT_DIR$/gb/out/close_R/out_3rd_replaceUpstream.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/close_R/out_adm_replaceUpstream.sh" afterPath="$PROJECT_DIR$/gb/out/close_R/out_adm_replaceUpstream.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/close_R/out_pay_replaceUpstream.sh" afterPath="$PROJECT_DIR$/gb/out/close_R/out_pay_replaceUpstream.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/close_R/out_site_replaceUpstream.sh" afterPath="$PROJECT_DIR$/gb/out/close_R/out_site_replaceUpstream.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/close_R/pay_variable.sh" afterPath="$PROJECT_DIR$/gb/out/close_R/pay_variable.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/close_R/site_variable.sh" afterPath="$PROJECT_DIR$/gb/out/close_R/site_variable.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/close_T/c_3rd_t_replaceUpstream.sh" afterPath="$PROJECT_DIR$/gb/out/close_T/c_3rd_t_replaceUpstream.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/git_pull.sh" afterPath="$PROJECT_DIR$/gb/out/git_pull.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/git_pull_adm.sh" afterPath="$PROJECT_DIR$/gb/out/git_pull_adm.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/git_pull_py.sh" afterPath="$PROJECT_DIR$/gb/out/git_pull_py.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/nginxReload.sh" afterPath="$PROJECT_DIR$/gb/out/nginxReload.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/nginxReload_adm.sh" afterPath="$PROJECT_DIR$/gb/out/nginxReload_adm.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/open_maintenance.sh" afterPath="$PROJECT_DIR$/gb/out/open_maintenance.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/out_aut_iptables.sh" afterPath="$PROJECT_DIR$/gb/out/out_aut_iptables.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/out_build.sh" afterPath="$PROJECT_DIR$/gb/out/out_build.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/out_run.sh" afterPath="$PROJECT_DIR$/gb/out/out_run.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/out_statics_clean.sh" afterPath="$PROJECT_DIR$/gb/out/out_statics_clean.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/out_statics_clean_one.sh" afterPath="$PROJECT_DIR$/gb/out/out_statics_clean_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/pay_nginxReload.sh" afterPath="$PROJECT_DIR$/gb/out/pay_nginxReload.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/print_anti.sh" afterPath="$PROJECT_DIR$/gb/out/print_anti.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/purgCloudflareChache.py" afterPath="$PROJECT_DIR$/gb/out/purgCloudflareChache.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/purgeOutPageCache.sh" afterPath="$PROJECT_DIR$/gb/out/purgeOutPageCache.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/purgeOutStatic.sh" afterPath="$PROJECT_DIR$/gb/out/purgeOutStatic.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/purgePageCache.sh" afterPath="$PROJECT_DIR$/gb/out/purgePageCache.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/out/test_maintenance.sh" afterPath="$PROJECT_DIR$/gb/out/test_maintenance.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/3rd_create.sh" afterPath="$PROJECT_DIR$/gb/pro/3rd_create.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/_variable.sh" afterPath="$PROJECT_DIR$/gb/pro/_variable.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/conf.sh" afterPath="$PROJECT_DIR$/gb/pro/conf.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/docker_pull.sh" afterPath="$PROJECT_DIR$/gb/pro/docker_pull.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/docker_rmi.sh" afterPath="$PROJECT_DIR$/gb/pro/docker_rmi.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/gb_backup_incr.sh" afterPath="$PROJECT_DIR$/gb/pro/gb_backup_incr.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/gb_create.sh" afterPath="$PROJECT_DIR$/gb/pro/gb_create.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/gb_init_site.sh" afterPath="$PROJECT_DIR$/gb/pro/gb_init_site.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/gb_init_site_one.sh" afterPath="$PROJECT_DIR$/gb/pro/gb_init_site_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/gb_release_incr.sh" afterPath="$PROJECT_DIR$/gb/pro/gb_release_incr.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/gb_reload.sh" afterPath="$PROJECT_DIR$/gb/pro/gb_reload.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/gb_restart.sh" afterPath="$PROJECT_DIR$/gb/pro/gb_restart.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/gb_revert_incr.sh" afterPath="$PROJECT_DIR$/gb/pro/gb_revert_incr.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/gb_schdule_restart.sh" afterPath="$PROJECT_DIR$/gb/pro/gb_schdule_restart.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/gb_schdule_restart_one.sh" afterPath="$PROJECT_DIR$/gb/pro/gb_schdule_restart_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/gb_schdule_stop.sh" afterPath="$PROJECT_DIR$/gb/pro/gb_schdule_stop.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/gb_schdule_stop_one.sh" afterPath="$PROJECT_DIR$/gb/pro/gb_schdule_stop_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/gb_server_stop.sh" afterPath="$PROJECT_DIR$/gb/pro/gb_server_stop.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/gb_server_stop_one.sh" afterPath="$PROJECT_DIR$/gb/pro/gb_server_stop_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/gb_tomcat_start.sh" afterPath="$PROJECT_DIR$/gb/pro/gb_tomcat_start.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/gb_tomcat_stop.sh" afterPath="$PROJECT_DIR$/gb/pro/gb_tomcat_stop.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/gb_update.sh" afterPath="$PROJECT_DIR$/gb/pro/gb_update.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/gb_web_index.sh" afterPath="$PROJECT_DIR$/gb/pro/gb_web_index.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/gb_web_index_one.sh" afterPath="$PROJECT_DIR$/gb/pro/gb_web_index_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/no_catalina_log.sh" afterPath="$PROJECT_DIR$/gb/pro/no_catalina_log.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/package.sh" afterPath="$PROJECT_DIR$/gb/pro/package.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/package_batch.sh" afterPath="$PROJECT_DIR$/gb/pro/package_batch.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/recover_release.sh" afterPath="$PROJECT_DIR$/gb/pro/recover_release.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/release.sh" afterPath="$PROJECT_DIR$/gb/pro/release.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/release_api_impl_jars.sh" afterPath="$PROJECT_DIR$/gb/pro/release_api_impl_jars.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/release_bak.sh" afterPath="$PROJECT_DIR$/gb/pro/release_bak.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/release_ftl_one.sh" afterPath="$PROJECT_DIR$/gb/pro/release_ftl_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/release_one.sh" afterPath="$PROJECT_DIR$/gb/pro/release_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/release_pay_impl_jars.sh" afterPath="$PROJECT_DIR$/gb/pro/release_pay_impl_jars.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/release_pro.sh" afterPath="$PROJECT_DIR$/gb/pro/release_pro.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/release_pro_one.sh" afterPath="$PROJECT_DIR$/gb/pro/release_pro_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/replaceUpstream.sh" afterPath="$PROJECT_DIR$/gb/pro/replaceUpstream.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/replaceUpstream_a.sh" afterPath="$PROJECT_DIR$/gb/pro/replaceUpstream_a.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/replaceUpstream_one.sh" afterPath="$PROJECT_DIR$/gb/pro/replaceUpstream_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/tengine_create.sh" afterPath="$PROJECT_DIR$/gb/pro/tengine_create.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/tengine_reload.sh" afterPath="$PROJECT_DIR$/gb/pro/tengine_reload.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/tengine_restart.sh" afterPath="$PROJECT_DIR$/gb/pro/tengine_restart.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/pro/tengine_update.sh" afterPath="$PROJECT_DIR$/gb/pro/tengine_update.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/rm_container_core_file.sh" afterPath="$PROJECT_DIR$/gb/rm_container_core_file.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/3rd_create.sh" afterPath="$PROJECT_DIR$/gb/test/3rd_create.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/_variable.sh" afterPath="$PROJECT_DIR$/gb/test/_variable.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/conf.sh" afterPath="$PROJECT_DIR$/gb/test/conf.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/docker_pull.sh" afterPath="$PROJECT_DIR$/gb/test/docker_pull.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/docker_rmi.sh" afterPath="$PROJECT_DIR$/gb/test/docker_rmi.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/gb_backup_incr.sh" afterPath="$PROJECT_DIR$/gb/test/gb_backup_incr.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/gb_create.sh" afterPath="$PROJECT_DIR$/gb/test/gb_create.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/gb_init_site.sh" afterPath="$PROJECT_DIR$/gb/test/gb_init_site.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/gb_init_site_one.sh" afterPath="$PROJECT_DIR$/gb/test/gb_init_site_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/gb_release_incr.sh" afterPath="$PROJECT_DIR$/gb/test/gb_release_incr.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/gb_reload.sh" afterPath="$PROJECT_DIR$/gb/test/gb_reload.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/gb_restart.sh" afterPath="$PROJECT_DIR$/gb/test/gb_restart.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/gb_revert_incr.sh" afterPath="$PROJECT_DIR$/gb/test/gb_revert_incr.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/gb_schdule_restart.sh" afterPath="$PROJECT_DIR$/gb/test/gb_schdule_restart.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/gb_schdule_restart_one.sh" afterPath="$PROJECT_DIR$/gb/test/gb_schdule_restart_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/gb_schdule_stop.sh" afterPath="$PROJECT_DIR$/gb/test/gb_schdule_stop.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/gb_schdule_stop_one.sh" afterPath="$PROJECT_DIR$/gb/test/gb_schdule_stop_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/gb_server_stop.sh" afterPath="$PROJECT_DIR$/gb/test/gb_server_stop.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/gb_server_stop_one.sh" afterPath="$PROJECT_DIR$/gb/test/gb_server_stop_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/gb_tomcat_start.sh" afterPath="$PROJECT_DIR$/gb/test/gb_tomcat_start.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/gb_tomcat_stop.sh" afterPath="$PROJECT_DIR$/gb/test/gb_tomcat_stop.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/gb_update.sh" afterPath="$PROJECT_DIR$/gb/test/gb_update.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/gb_web_index.sh" afterPath="$PROJECT_DIR$/gb/test/gb_web_index.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/gb_web_index_one.sh" afterPath="$PROJECT_DIR$/gb/test/gb_web_index_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/no_catalina_log.sh" afterPath="$PROJECT_DIR$/gb/test/no_catalina_log.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/package.sh" afterPath="$PROJECT_DIR$/gb/test/package.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/package_batch.sh" afterPath="$PROJECT_DIR$/gb/test/package_batch.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/recover_release.sh" afterPath="$PROJECT_DIR$/gb/test/recover_release.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/release.sh" afterPath="$PROJECT_DIR$/gb/test/release.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/release_api_impl_jars.sh" afterPath="$PROJECT_DIR$/gb/test/release_api_impl_jars.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/release_bak.sh" afterPath="$PROJECT_DIR$/gb/test/release_bak.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/release_ftl_one.sh" afterPath="$PROJECT_DIR$/gb/test/release_ftl_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/release_one.sh" afterPath="$PROJECT_DIR$/gb/test/release_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/release_pay_impl_jars.sh" afterPath="$PROJECT_DIR$/gb/test/release_pay_impl_jars.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/replaceUpstream.sh" afterPath="$PROJECT_DIR$/gb/test/replaceUpstream.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/replaceUpstream_a.sh" afterPath="$PROJECT_DIR$/gb/test/replaceUpstream_a.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/replaceUpstream_one.sh" afterPath="$PROJECT_DIR$/gb/test/replaceUpstream_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/tengine_create.sh" afterPath="$PROJECT_DIR$/gb/test/tengine_create.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/tengine_reload.sh" afterPath="$PROJECT_DIR$/gb/test/tengine_reload.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/tengine_restart.sh" afterPath="$PROJECT_DIR$/gb/test/tengine_restart.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/test/tengine_update.sh" afterPath="$PROJECT_DIR$/gb/test/tengine_update.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/live/gb_backup_incr.sh" afterPath="$PROJECT_DIR$/live/gb_backup_incr.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/live/gb_init_site.sh" afterPath="$PROJECT_DIR$/live/gb_init_site.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/live/gb_init_site_one.sh" afterPath="$PROJECT_DIR$/live/gb_init_site_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/live/gb_release_incr.sh" afterPath="$PROJECT_DIR$/live/gb_release_incr.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/live/gb_revert_incr.sh" afterPath="$PROJECT_DIR$/live/gb_revert_incr.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/close_R/c_3rd_t_replaceUpstream.sh" afterPath="$PROJECT_DIR$/out/close_R/c_3rd_t_replaceUpstream.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/live/00-package.sh" afterPath="$PROJECT_DIR$/pb/live/00-package.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/live/01-pb-replaceUpstream.sh" afterPath="$PROJECT_DIR$/pb/live/01-pb-replaceUpstream.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/live/02-release.sh" afterPath="$PROJECT_DIR$/pb/live/02-release.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/live/10-app-bak-incr.sh" afterPath="$PROJECT_DIR$/pb/live/10-app-bak-incr.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/live/_variable.sh" afterPath="$PROJECT_DIR$/pb/live/_variable.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/live/conf.sh" afterPath="$PROJECT_DIR$/pb/live/conf.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/live/package_batch.sh" afterPath="$PROJECT_DIR$/pb/live/package_batch.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/live/pb_create.sh" afterPath="$PROJECT_DIR$/pb/live/pb_create.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/live/pb_restart.sh" afterPath="$PROJECT_DIR$/pb/live/pb_restart.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/live/pb_server_stop.sh" afterPath="$PROJECT_DIR$/pb/live/pb_server_stop.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/live/pb_tomcat_start.sh" afterPath="$PROJECT_DIR$/pb/live/pb_tomcat_start.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/live/pb_tomcat_stop.sh" afterPath="$PROJECT_DIR$/pb/live/pb_tomcat_stop.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/live/pb_update.sh" afterPath="$PROJECT_DIR$/pb/live/pb_update.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/live/pb_web_index.sh" afterPath="$PROJECT_DIR$/pb/live/pb_web_index.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/live/pb_web_index_one.sh" afterPath="$PROJECT_DIR$/pb/live/pb_web_index_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/live/release_bak.sh" afterPath="$PROJECT_DIR$/pb/live/release_bak.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/live/tengine_create.sh" afterPath="$PROJECT_DIR$/pb/live/tengine_create.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/live/tengine_reload.sh" afterPath="$PROJECT_DIR$/pb/live/tengine_reload.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/live/tengine_restart.sh" afterPath="$PROJECT_DIR$/pb/live/tengine_restart.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/live/tengine_update.sh" afterPath="$PROJECT_DIR$/pb/live/tengine_update.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/test/_variable.sh" afterPath="$PROJECT_DIR$/pb/test/_variable.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/test/conf.sh" afterPath="$PROJECT_DIR$/pb/test/conf.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/test/package.sh" afterPath="$PROJECT_DIR$/pb/test/package.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/test/package_batch.sh" afterPath="$PROJECT_DIR$/pb/test/package_batch.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/test/pb_create.sh" afterPath="$PROJECT_DIR$/pb/test/pb_create.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/test/pb_restart.sh" afterPath="$PROJECT_DIR$/pb/test/pb_restart.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/test/pb_server_stop.sh" afterPath="$PROJECT_DIR$/pb/test/pb_server_stop.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/test/pb_tomcat_start.sh" afterPath="$PROJECT_DIR$/pb/test/pb_tomcat_start.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/test/pb_tomcat_stop.sh" afterPath="$PROJECT_DIR$/pb/test/pb_tomcat_stop.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/test/pb_update.sh" afterPath="$PROJECT_DIR$/pb/test/pb_update.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/test/pb_web_index.sh" afterPath="$PROJECT_DIR$/pb/test/pb_web_index.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/test/pb_web_index_one.sh" afterPath="$PROJECT_DIR$/pb/test/pb_web_index_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/test/release.sh" afterPath="$PROJECT_DIR$/pb/test/release.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/test/release_bak.sh" afterPath="$PROJECT_DIR$/pb/test/release_bak.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/test/tengine_create.sh" afterPath="$PROJECT_DIR$/pb/test/tengine_create.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/test/tengine_reload.sh" afterPath="$PROJECT_DIR$/pb/test/tengine_reload.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/test/tengine_restart.sh" afterPath="$PROJECT_DIR$/pb/test/tengine_restart.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pb/test/tengine_update.sh" afterPath="$PROJECT_DIR$/pb/test/tengine_update.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/live/01-sp_release.sh" afterPath="$PROJECT_DIR$/sp/live/01-sp_release.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/live/02-someone-release.sh" afterPath="$PROJECT_DIR$/sp/live/02-someone-release.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/live/03-update-out-site-gather-client.sh" afterPath="$PROJECT_DIR$/sp/live/03-update-out-site-gather-client.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/live/04-update-out-site-process.sh" afterPath="$PROJECT_DIR$/sp/live/04-update-out-site-process.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/live/T-03-update-out-site-gather-client.sh" afterPath="$PROJECT_DIR$/sp/live/T-03-update-out-site-gather-client.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/live/T-04-update-out-site-process.sh" afterPath="$PROJECT_DIR$/sp/live/T-04-update-out-site-process.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/live/_variable.sh" afterPath="$PROJECT_DIR$/sp/live/_variable.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/live/_variable.sh.bak20180213" afterPath="$PROJECT_DIR$/sp/live/_variable.sh.bak20180213" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/live/app_update_new.sh" afterPath="$PROJECT_DIR$/sp/live/app_update_new.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/live/conf.sh" afterPath="$PROJECT_DIR$/sp/live/conf.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/live/function.sh" afterPath="$PROJECT_DIR$/sp/live/function.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/live/package.sh" afterPath="$PROJECT_DIR$/sp/live/package.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/live/package_batch.sh" afterPath="$PROJECT_DIR$/sp/live/package_batch.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/live/release.sh" afterPath="$PROJECT_DIR$/sp/live/release.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/live/release_bak.sh" afterPath="$PROJECT_DIR$/sp/live/release_bak.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/live/service_stop_new.sh" afterPath="$PROJECT_DIR$/sp/live/service_stop_new.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/live/tomcat_start_new.sh" afterPath="$PROJECT_DIR$/sp/live/tomcat_start_new.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/live/tomcat_stop_new.sh" afterPath="$PROJECT_DIR$/sp/live/tomcat_stop_new.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/test/_variable.sh" afterPath="$PROJECT_DIR$/sp/test/_variable.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/test/conf.sh" afterPath="$PROJECT_DIR$/sp/test/conf.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/test/package.sh" afterPath="$PROJECT_DIR$/sp/test/package.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/test/package_batch.sh" afterPath="$PROJECT_DIR$/sp/test/package_batch.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/test/release.sh" afterPath="$PROJECT_DIR$/sp/test/release.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/test/release_bak.sh" afterPath="$PROJECT_DIR$/sp/test/release_bak.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/test/sp_create.sh" afterPath="$PROJECT_DIR$/sp/test/sp_create.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/test/sp_restart.sh" afterPath="$PROJECT_DIR$/sp/test/sp_restart.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/test/sp_server_stop.sh" afterPath="$PROJECT_DIR$/sp/test/sp_server_stop.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/test/sp_tomcat_start.sh" afterPath="$PROJECT_DIR$/sp/test/sp_tomcat_start.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/test/sp_tomcat_stop.sh" afterPath="$PROJECT_DIR$/sp/test/sp_tomcat_stop.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/test/sp_update.sh" afterPath="$PROJECT_DIR$/sp/test/sp_update.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/test/sp_web_index.sh" afterPath="$PROJECT_DIR$/sp/test/sp_web_index.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/test/sp_web_index_one.sh" afterPath="$PROJECT_DIR$/sp/test/sp_web_index_one.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/test/tengine_create.sh" afterPath="$PROJECT_DIR$/sp/test/tengine_create.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/test/tengine_reload.sh" afterPath="$PROJECT_DIR$/sp/test/tengine_reload.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/test/tengine_restart.sh" afterPath="$PROJECT_DIR$/sp/test/tengine_restart.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/test/tengine_update.sh" afterPath="$PROJECT_DIR$/sp/test/tengine_update.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -361,11 +25,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="03-update-out-site-gather-client.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="03-update-out-site-gather-client.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sp/live/03-update-out-site-gather-client.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -390,9 +64,9 @@
       <find>pssh -H ro</find>
       <find>pssh -H r</find>
       <find>pssh -H</find>
-      <find>pssh -H</find>
       <find>pssh -H root</find>
       <find>line</find>
+      <find>id</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -406,6 +80,13 @@
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -459,6 +140,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="GO_FMT" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WORK\script" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -896,12 +583,20 @@
       <workItem from="1556706012508" duration="1993000" />
       <workItem from="1556710470994" duration="4000" />
       <workItem from="1556710569433" duration="52000" />
-      <workItem from="1556711391321" duration="26000" />
+      <workItem from="1556711391321" duration="112000" />
     </task>
+    <task id="LOCAL-00001" summary="dev">
+      <created>1556711456176</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556711456176</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2075000" />
+    <option name="totallyTimeSpent" value="2161000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -941,6 +636,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dev" />
+    <option name="LAST_COMMIT_MESSAGE" value="dev" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1057,6 +756,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
