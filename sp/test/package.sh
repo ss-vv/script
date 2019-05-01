@@ -1,5 +1,4 @@
 cur_dir=$(cd $(dirname ${BASH_SOURCE[0]}); pwd )
-echo $cur_dir
 dubbo_version=`date "+sp-%Y%m%d%H%M%S"`
 rcVersion=$dubbo_version
 source $cur_dir/_variable.sh

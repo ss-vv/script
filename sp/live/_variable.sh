@@ -13,13 +13,13 @@ DSIP=(sd1 sd2)
 ASIP=(sa1 sa2 sa3)
 RSGB=""
 DSGB=""
-ASGB="play manager api service mdcenter gather-server central"
+ASGB="play manager api service mdcenter gather-server central schedule settlement"
 RSPKG="rcenter"
 DSPKG=""
-ASPKG="ROOT manager api service mdcenter gather-server central"
+ASPKG="ROOT manager api service mdcenter gather-server central schedule settlement"
 RSTG="play manager rcenter mdcenter"
 RSTC=""
-ALLPKG="ROOT manager api service mdcenter gather-server gather-client central"
+ALLPKG="ROOT manager api service mdcenter gather-server gather-client central schedule settlement"
 DS3RD=""
 AS3RD=""
 CPPKG="sql.war rcenter.war"
@@ -33,7 +33,7 @@ file_upload_tmp='/data/upload/tmp'
 file_upload_data='/data/upload/data'
 
 # duboo
-zookeeper_url='zk_node1-zoo:2181,zk_node2-zoo:2181,zk_node3-zoo:2181,zk_node4-zoo:2181,zk_node5-zoo:2181'
+zookeeper_url='sp-zook:2181'
 dubbo_version='sp-1.0.0.0'
 
 # redis
@@ -42,15 +42,17 @@ pageCache_redis_host=''
 shiro_session_host=''
 shiro_auth_host=''
 odds_redis_host=''
+api_redis_host=''
 
 # ------------------------------- redis cluster 1 -------------------------------
-data_redis_hosts='rd_node01-rd:6379,rd_node02-rd:6379,rd_node03-rd:6379,rd_node04-rd:6379,rd_node05-rd:6379,rd_node06-rd:6379'
-pageCache_redis_hosts='rd_node01-rd:6379,rd_node02-rd:6379,rd_node03-rd:6379,rd_node04-rd:6379,rd_node05-rd:6379,rd_node06-rd:6379'
-shiro_session_hosts='rd_node01-rd:6379,rd_node02-rd:6379,rd_node03-rd:6379,rd_node04-rd:6379,rd_node05-rd:6379,rd_node06-rd:6379'
-shiro_auth_hosts='rd_node01-rd:6379,rd_node02-rd:6379,rd_node03-rd:6379,rd_node04-rd:6379,rd_node05-rd:6379,rd_node06-rd:6379'
-gather_redis_hosts='rd_node01-rd:6379,rd_node02-rd:6379,rd_node03-rd:6379,rd_node04-rd:6379,rd_node05-rd:6379,rd_node06-rd:6379'
+data_redis_host='sp-redis'
+pageCache_redis_host='sp-redis'
+shiro_session_host='sp-redis'
+shiro_auth_host='sp-redis'
+gather_redis_host='sp-redis'
+api_redis_host='sp-redis'
 # ------------------------------- redis cluster 2 -------------------------------
-odds_redis_hosts='redis_n01-rd:6379,redis_n02-rd:6379,redis_n03-rd:6379,redis_n04-rd:6379,redis_n05-rd:6379,redis_n07-rd:6379'
+odds_redis_host='sp-redis'
 
 # web
 dubbo_port='30001'
@@ -68,15 +70,15 @@ password_decrypt='false'
 # boss
 bossDataSource_url='jdbc:postgresql://pg-sp.d1:5432/sp-boss?characterEncoding=UTF-8'
 bossDataSource_username='sp-manager'
-bossDataSource_password='sp-manager'
+bossDataSource_password='git clone git@git.gbboss.com:soul/soul'
 
 # stat
 statDataSource_url='jdbc:postgresql://pg-sp.d1:5432/sp-stat?characterEncoding=UTF-8'
 statDataSource_username='sp-stat'
-statDataSource_password='sp-stat'
+statDataSource_password='git clone git@git.gbboss.com:soul/soul'
 
 # rocketmq
-rocketMQ_namesrvAddr='mq_node1-m:9876;mq_node1-s:9876;mq_node2-m:9876;mq_node2-s:9876;mq_node3-m:9876;mq_node3-s:9876'
+rocketMQ_namesrvAddr='sp-mq:9876'
 rdb_dir='/var/data/mq/rdb'
 
 # sports play
@@ -89,7 +91,7 @@ redis_odds_key='sp-central'
 #采集版本号
 gather_version=sp_1.0
 #采集系统Zookeeper配置
-gather_zookeeper_url='zk_node1-zoo:2181,zk_node2-zoo:2181,zk_node3-zoo:2181,zk_node4-zoo:2181,zk_node5-zoo:2181'
+gather_zookeeper_url='sp-zook:2181'
 #外部通道是否走nginx作反向代理
 gather_zookeeper_node='sp-central'
 
@@ -109,7 +111,8 @@ gather_zookeeper_node_prefix_client='public'
 #gather_zookeeper_node_nginx='data2.sports-hg.com:61 data2.sports-hg.com:62 data2.sports-hg.com:63'
 
 #gather_zookeeper_node_nginx='182.16.67.84:61 103.100.140.89:61 103.100.140.86:61 182.16.67.84:62 103.100.140.89:62 103.100.140.86:62 182.16.67.84:63 103.100.140.89:63 103.100.140.86:63'
-gather_zookeeper_node_nginx='182.16.67.84:61 103.100.140.89:62 103.100.140.86:63'
+#gather_zookeeper_node_nginx='182.16.67.84:61 103.100.140.89:62 103.100.140.86:63'
+gather_zookeeper_node_nginx='10.0.2.100:9000;140.237.187.175:61'
 
 
 data_chain_init=30

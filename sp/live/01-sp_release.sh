@@ -21,7 +21,8 @@ done
 }
 
 line=$1
-options_srv='manager service mdcenter'
+options_srv='manager service mdcenter schedule
+	settlement'
 options_app='gather-server play api central'
 options_all="$options_srv $options_app"
 
@@ -30,7 +31,7 @@ ITEM=1
 # ============= 反注册dubbo，停止tomcat start ===============
 _h2 "[ Step ${ITEM} ]: 反注册 APP 的 dubbo 服务..."; let ITEM+=1
 _enter_ok_go_on
-source $cur_dir/service_stop_new.sh $line $options_all
+#source $cur_dir/service_stop_new.sh $line $options_all
 
 
 _h2 "[ Step ${ITEM} ]: 停止tomcat... "; let ITEM+=1

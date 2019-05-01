@@ -22,6 +22,7 @@ done
 
 # cat /etc/ansible/hosts
 out_gc_list='sp-gc'
+#out_gc_list='bak'
 
 
 

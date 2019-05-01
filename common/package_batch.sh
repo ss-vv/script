@@ -1,5 +1,5 @@
 apps_path="$base_path/apps/$project"
-echo "rm -rf  $apps_path/release/*  1111111111111  $project"
+echo "rm -rf  $apps_path/release/*"
 rm -rf  $apps_path/release/*
 for   var  in   $ALLPKG
   do
@@ -8,7 +8,6 @@ for   var  in   $ALLPKG
     echo "mkdir -p $apps_path/work/$var/"
          mkdir -p $apps_path/work/$var/
   done
-
 export _project_=$project
 export _base_path_=$base_path
 python $base_path/script/common/unpackage.py
@@ -25,7 +24,6 @@ for   var  in   $ALLPKG
       echo -e "zip -rq $apps_path/release/${var}.war \t ./"
                zip -rq $apps_path/release/${var}.war ./
   done
-
 for pkg in $CPPKG 
 do
     echo "cp $apps_path/packages/$pkg $apps_path/release/"
@@ -34,6 +32,13 @@ done
 
 echo "cp $apps_path/packages/sql.war           $apps_path/release/"
       cp $apps_path/packages/sql.war           $apps_path/release/
+
+
+
+
+
+
+
 #echo "rm -rf $apps_path/work/rcenter/*"
 #      rm -rf $apps_path/work/rcenter/*
 #echo "mkdir -p $apps_path/work/rcenter/$dubbo_version/rcenter/"

@@ -45,7 +45,7 @@ while aLine !='':
 
     # copy jar
     if curWarName != '':
-        jarName = aLine.split('=')[1].strip('\n')
+        jarName = aLine.split('=')[1].strip('\n').strip()
         if (jarName.find('SNAPSHOT') == -1):
             os.system('\cp -f %s %s' % (JAR_REPO_DIR + jarName, TEMP_UNZIP_WAR_DIR + curWarName + '/WEB-INF/lib'))
         if (jarName.find('SNAPSHOT') != -1):

@@ -13,7 +13,7 @@ host=$1
 shift
 # -------- 控制机的目录 --------
 work_host="${username}@${host}:${port}"
-apps_path="${base_path}/apps/${project}/release"
+apps_path="${base_path}/apps/${project}/release/"
 
 # -------- tomcat节点的目录 --------
 # 获取线别 ${host: -1}
@@ -24,7 +24,7 @@ else
     dist_app_dir="${dist_base_path}/apps/"
     dist_bak_dir="${dist_base_path}/bak-app/"
 fi
-dist_war_dir="/tmp/packages/"
+dist_war_dir="/temp/packages/"
 # ---------------------------------
 
 # 清除目标host的 war 包目录
