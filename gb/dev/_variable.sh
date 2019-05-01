@@ -69,13 +69,18 @@ password_decrypt='false'
 
 # boss
 bossDataSource_url='jdbc:postgresql://pg-gb.d1:5432/gb-boss?characterEncoding=UTF-8'
-bossDataSource_username='gb-manager'
-bossDataSource_password='git clone git@git.gbboss.com:soul/soul'
+bossDataSource_username='gb-boss'
+bossDataSource_password='fasdfDAfsfKULHLhlhlHKG'
+
+# boss
+bossDataSource_url='jdbc:postgresql://pg-gb.d1:5432/gb-companies?characterEncoding=UTF-8'
+bossDataSource_username='gb-companies'
+bossDataSource_password='fasdfDAfsfKULHLhlhlHKG'
 
 # stat
 statDataSource_url='jdbc:postgresql://pg-gb.d1:5432/gb-stat?characterEncoding=UTF-8'
 statDataSource_username='gb-stat'
-statDataSource_password='git clone git@git.gbboss.com:soul/soul'
+statDataSource_password='fasdfDAfsfKULHLhlhlHKG'
 
 # rocketmq
 rocketMQ_namesrvAddr='gb-mq:9876'
