@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+# -*- coding:utf-8 -*-
+
+# Author: Tim
+#
+cur_dir_com="$( cd $(dirname ${BASH_SOURCE[0]}) && pwd )"
+# 导入脚本所在目录下存在函数功能文件function.sh，
+source ${cur_dir_com}/function.sh
+
+host=$1
+shift
+work_host="${username}@${host}:${port}"
+
+for app in $@;do
+    if [[ "$app" == 'gather-server' ]]; then
+        continue
+    fi
+    (
+        dubbo_off=$(get_dubbo_off $app)
+        container=$(get_container_name $host $app)
+
+        if [[ $docker_new == true ]]; then
+            pssh_cmd="rectn ${container}  ${dubbo_off}"
+        else
+            pssh_cmd="docker exec ${container}  ${dubbo_off}"
+        fi
+
+        pssh_with_info
+
+    ) &
+    sleep 1
+done
+wait
