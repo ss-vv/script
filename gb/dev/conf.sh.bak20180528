@@ -146,7 +146,7 @@ sed -i 's#^data.redis.hosts=.*$#data.redis.hosts='"$data_redis_hosts"'#' $WEBSIT
 # 页面静态化redis服务器地址
 sed -i 's#^pageCache.redis.hosts=.*$#pageCache.redis.hosts='"$pageCache_redis_hosts"'#' $WEBSITE/redis-conf.properties
 # api数据redis服务器地址
-sed -i 's#^api.token.hosts=.*$#api.token.hosts='"$api_redis_hosts"'#' $WEBSITE/redis-conf.properties
+sed -i 's#^gameApi.redis.hosts=.*$#gameApi.redis.hosts='"$gameApi_redis_hosts"'#' $WEBSITE/redis-conf.properties
 # Web session redis服务器地址
 sed -i 's#^shiro.session.hosts=.*$#shiro.session.hosts='"$shiro_session_hosts"'#' $WEBSITE/redis-conf.properties
 # Shiro权限数据redis服务器地址
@@ -167,7 +167,7 @@ sed -i 's#^data.redis.host=.*$#data.redis.host='"$data_redis_host"'#' $WEBSITE/r
 # 页面静态化redis服务器地址
 sed -i 's#^pageCache.redis.host=.*$#pageCache.redis.host='"$pageCache_redis_host"'#' $WEBSITE/redis-conf.properties
 # api数据redis服务器地址
-sed -i 's#^api.token.host=.*$#api.token.host='"$api_redis_host"'#' $WEBSITE/redis-conf.properties
+sed -i 's#^gameApi.redis.host=.*$#gameApi.redis.host='"$gameApi_redis_host"'#' $WEBSITE/redis-conf.properties
 # Web session redis服务器地址
 sed -i 's#^shiro.session.host=.*$#shiro.session.host='"$shiro_session_host"'#' $WEBSITE/redis-conf.properties
 # Shiro权限数据redis服务器地址
@@ -261,15 +261,6 @@ if [ -f $WEBSITE"/central-conf.properties" ]; then
 sed -i 's#^rocketMQ.namesrvAddr=.*$#rocketMQ.namesrvAddr='"$rocketMQ_namesrvAddr"'#' $WEBSITE/central-conf.properties
 # 消息队列本地异常信息存放目录
 sed -i 's#^local.store.db.home=.*$#local.store.db.home='"$rdb_dir"'#' $WEBSITE/central-conf.properties
-fi
-
-# 结算容器配置
-# [settlement-conf.properties]
-if [ -f $WEBSITE"/settlement-conf.properties" ]; then
-# 消息队列服务器地址和端口
-sed -i 's#^rocketMQ.namesrvAddr=.*$#rocketMQ.namesrvAddr='"$rocketMQ_namesrvAddr"'#' $WEBSITE/settlement-conf.properties
-# 消息队列本地异常信息存放目录
-sed -i 's#^local.store.db.home=.*$#local.store.db.home='"$rdb_dir"'#' $WEBSITE/settlement-conf.properties
 fi
 
 #game-api采集器配置
