@@ -37,7 +37,7 @@ RSRP="ccenter msites pcenter acenter tcenter mcenter boss mdcenter api api-callb
 RSTC="nginx-api nginx-inner nginx-inner-$env nginx-msite nginx-pay nginx-rcenter nginx-gather mobile lottery lottery-mobile"
 ASTC="nginx-api nginx-msite nginx-pay"
 TSTC="api-callback api gather"
-ALLPKG="ROOT msites mobile-api  acenter boss-api ccenter fserver main-service message-service pcenter service-activity tengine-fserver api boss-service consumer-service lottery mcenter mobile mreport-service service-api zook boss cache-service cp-schedule lt-service mdcenter schedule tcenter lottery-mobile"
+ALLPKG="acenter api boss ccenter fserver mcenter mdcenter msites pcenter service tcenter gather-server gather-client mobile service-api lottery lottery-mobile schedule cp-schedule"
 DS3RD="postgres redis zookeeper"
 AS3RD="mongo mq"
 
