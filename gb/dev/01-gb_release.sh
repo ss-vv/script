@@ -21,9 +21,8 @@ done
 }
 
 line=$1
-options_srv='manager service mdcenter schedule
-	settlement'
-options_app='gather-server play api central'
+options_srv='boss-api  fserver lt-service mobile-api schedule api boss-service consumer-service main-service message-service service-activity cache-service cp-schedule mreport-service service-api'
+options_app='acenter ccenter mdcenter msites tcenter lottery pcenter boss lottery-mobile mcenter mobile'
 options_all="$options_srv $options_app"
 
 ITEM=1
