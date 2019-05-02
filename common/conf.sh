@@ -259,7 +259,7 @@ if [ "$app" == "gather-client" ]; then
     #echo sed -i 's#^gather.zookeeper.url=.*$#gather.zookeeper.url='"$gather_zookeeper_url_client"'#' $WEBSITE/gather-conf.properties
     sed -i 's#^gather.zookeeper.url=.*$#gather.zookeeper.url='"$gather_zookeeper_url_client"'#' $WEBSITE/gather-conf.properties
 fi
-if [ "$app" == "gather-server" ]  || [ "$app" == "service" ] || [ "$app" == "api" ]  || [ "$app" == "service-api" ]; then
+if [ "$app" == "gather-server" ]  || [ "$app" == "service" ] || [ "$app" == "api" ]  || [ "$app" == "service-api" ]  || [ "$app" == "mains-service" ]; then
     #echo sed -i 's#^gather.zookeeper.url=.*$#gather.zookeeper.url='"$gather_zookeeper_url_server"'#' $WEBSITE/gather-conf.properties
     # Zookeeper的url及端口,多个用半角空格分隔
     sed -i 's#^gather.zookeeper.url=.*$#gather.zookeeper.url='"$gather_zookeeper_url_server"'#' $WEBSITE/gather-conf.properties
