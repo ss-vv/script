@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e79bf873-f0b2-496b-84e7-813778d66d86" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/live/_variable.sh" afterPath="$PROJECT_DIR$/gb/live/_variable.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/dev/_variable.sh" afterPath="$PROJECT_DIR$/gb/dev/_variable.sh" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,36 +15,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_variable.sh" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gb/live/_variable.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="00-package.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gb/live/00-package.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="01-all-release.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gb/live/01-all-release.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1096">
-              <caret line="83" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="00-gb_package.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gb/dev/00-gb_package.sh">
           <provider selected="true" editor-type-id="text-editor">
@@ -55,21 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01-gb_release.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gb/dev/01-gb_release.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_variable.sh" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_variable.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gb/dev/_variable.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            <state relative-caret-position="418">
+              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -105,10 +65,10 @@
       <find>ALLPKG=</find>
       <find>ALLPKG</find>
       <find>ccenter fserver mcenter mdcenter msites pcenter service tcenter gather-server gather-client</find>
-      <find>tengine</find>
       <find>acenter api boss ccenter fserver mcenter mdcenter msites pcenter service tcenter gather-server gather-client mobile service-api lottery lottery-mobile schedule cp-schedule</find>
       <find>l</find>
       <find>live</find>
+      <find>tengine</find>
     </findStrings>
     <replaceStrings>
       <replace>gb</replace>
@@ -138,8 +98,8 @@
         <option value="$PROJECT_DIR$/gb/live/package_batch.sh" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/common/package_batch.sh" />
-        <option value="$PROJECT_DIR$/gb/dev/_variable.sh" />
         <option value="$PROJECT_DIR$/gb/live/_variable.sh" />
+        <option value="$PROJECT_DIR$/gb/dev/_variable.sh" />
       </list>
     </option>
   </component>
@@ -220,7 +180,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="live" />
+              <option name="myItemId" value="dev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -759,11 +719,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556766130896</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="dev">
+      <created>1556766159249</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1556766159249</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10798000" />
+    <option name="totallyTimeSpent" value="11447000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -1175,26 +1142,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gb/live/00-package.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gb/live/01-all-release.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1096">
           <caret line="83" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gb/dev/00-gb_package.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1207,18 +1158,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gb/dev/_variable.sh">
+    <entry file="file://$PROJECT_DIR$/gb/live/00-package.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        <state relative-caret-position="152">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gb/live/_variable.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="532">
+          <caret line="40" column="23" lean-forward="false" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gb/dev/00-gb_package.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gb/dev/_variable.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding />
         </state>
       </provider>
