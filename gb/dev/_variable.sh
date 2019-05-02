@@ -97,7 +97,13 @@ redis_odds_key='gb-central'
 #采集版本号
 gather_version=gb_1.0
 #采集系统Zookeeper配置
-gather_zookeeper_url='gb-zook:2181'
+# gather
+gather_version='1.0'
+gather_zookeeper_url_client='gb-zook:2181'
+#gather_zookeeper_url_server='gb-zook:2181'
+gather_zookeeper_url_server='gb-zook:2181'
+gather_zookeeper_node_nginx='60.199.195.2:61 60.199.195.2:62 60.199.195.2:63 60.199.195.145:61 60.199.195.145:62 60.199.195.145:63'
+
 #外部通道是否走nginx作反向代理
 gather_zookeeper_node='gb-central'
 
