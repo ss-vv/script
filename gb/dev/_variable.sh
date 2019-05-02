@@ -28,7 +28,7 @@ CPPKG="sql.war rcenter.war"
 docker_new=false
 
 # fserver
-filesite_url='http://{0}/gb-fserver/fserver'
+filesite_url='http://gb-tengine-fserver/fserver'
 file_upload_tmp='/data/upload/tmp'
 file_upload_data='/data/upload/data'
 
@@ -51,6 +51,7 @@ shiro_session_host='gb-redis'
 shiro_auth_host='gb-redis'
 gather_redis_host='gb-redis'
 api_redis_host='gb-redis'
+gameApi_redis_host='gb-redis'
 # ------------------------------- redis cluster 2 -------------------------------
 odds_redis_host='gb-redis'
 
@@ -72,10 +73,10 @@ bossDataSource_url='jdbc:postgresql://pg-gb.d1:5432/gb-boss?characterEncoding=UT
 bossDataSource_username='gb-boss'
 bossDataSource_password='fasdfDAfsfKULHLhlhlHKG'
 
-# boss
-bossDataSource_url='jdbc:postgresql://pg-gb.d1:5432/gb-companies?characterEncoding=UTF-8'
-bossDataSource_username='gb-companies'
-bossDataSource_password='fasdfDAfsfKULHLhlhlHKG'
+# companies
+mainsiteDataSource_url='jdbc:postgresql://pg-gb.d1:5432/gb-companies?characterEncoding=UTF-8'
+mainsiteDataSource_username='gb-companies'
+mainsiteDataSource_password='fasdfDAfsfKULHLhlhlHKG'
 
 # stat
 statDataSource_url='jdbc:postgresql://pg-gb.d1:5432/gb-stat?characterEncoding=UTF-8'
