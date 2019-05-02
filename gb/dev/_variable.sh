@@ -1,7 +1,7 @@
 base_path='/var/env'
 dist_base_path='/var/gb'
 username="root"
-env="live"
+env="dev"
 project="gb"
 port="22"
 
