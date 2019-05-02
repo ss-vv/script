@@ -154,6 +154,8 @@ sed -i 's#^shiro.auth.hosts=.*$#shiro.auth.hosts='"$shiro_auth_hosts"'#' $WEBSIT
 # Gather数据redis服务器地址
 sed -i 's#^gather.redis.hosts=.*$#gather.redis.hosts='"$gather_redis_hosts"'#' $WEBSITE/redis-conf.properties
 
+# gameApi数据redis服务器地址
+sed -i 's#^gameApi.redis.hosts=.*$#gameApi.redis.hosts='"$gameApi_redis_hosts"'#' $WEBSITE/redis-conf.properties
 # 体育赔率数据redis服务器地址
 sed -i 's#^odds.redis.hosts=.*$#odds.redis.hosts='"$odds_redis_hosts"'#' $WEBSITE/redis-conf.properties
 
@@ -174,7 +176,8 @@ sed -i 's#^shiro.session.host=.*$#shiro.session.host='"$shiro_session_host"'#' $
 sed -i 's#^shiro.auth.host=.*$#shiro.auth.host='"$shiro_auth_host"'#' $WEBSITE/redis-conf.properties
 # Gather数据redis服务器地址
 sed -i 's#^gather.redis.host=.*$#gather.redis.host='"$gather_redis_host"'#' $WEBSITE/redis-conf.properties
-
+# gameApi数据redis服务器地址
+sed -i 's#^gameApi.redis.hosts=.*$#gameApi.redis.hosts='"$gameApi_redis_host"'#' $WEBSITE/redis-conf.properties
 # 体育赔率数据redis服务器地址
 sed -i 's#^odds.redis.host=.*$#odds.redis.host='"$odds_redis_host"'#' $WEBSITE/redis-conf.properties
 
