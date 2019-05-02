@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e79bf873-f0b2-496b-84e7-813778d66d86" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/dev/conf.sh" afterPath="$PROJECT_DIR$/gb/dev/conf.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/dev/_variable.sh" afterPath="$PROJECT_DIR$/gb/dev/_variable.sh" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,41 +15,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_variable.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gb/dev/_variable.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="110" column="27" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_variable.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gb/live/_variable.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="143" column="27" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="conf.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gb/live/conf.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conf.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gb/dev/conf.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
               <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_variable.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gb/dev/_variable.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="109" column="14" lean-forward="true" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -122,8 +102,8 @@
         <option value="$PROJECT_DIR$/gb/live/_variable.sh" />
         <option value="$PROJECT_DIR$/gb/dev/01-gb_release.sh" />
         <option value="$PROJECT_DIR$/common/function.sh" />
-        <option value="$PROJECT_DIR$/gb/dev/_variable.sh" />
         <option value="$PROJECT_DIR$/gb/dev/conf.sh" />
+        <option value="$PROJECT_DIR$/gb/dev/_variable.sh" />
       </list>
     </option>
   </component>
@@ -204,7 +184,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="live" />
+              <option name="myItemId" value="dev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -827,11 +807,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556793790906</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="dev">
+      <created>1556795596239</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1556795596239</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19669000" />
+    <option name="totallyTimeSpent" value="19706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -1285,14 +1272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gb/dev/_variable.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="110" column="27" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gb/live/conf.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1305,6 +1284,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gb/dev/_variable.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="109" column="14" lean-forward="true" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
           <folding />
         </state>
       </provider>

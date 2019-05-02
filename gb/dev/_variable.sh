@@ -108,7 +108,7 @@ gather_nginx_channel=true
 gather_zookeeper_node_prefix='inner'
 
 #gather-client
-gather_zookeeper_url_client='data2.sports-hg.com:92'
+gather_zookeeper_url_client='gb-zook:2181'
 gather_zookeeper_node_prefix_client='public'
 
 #Nginx中代理节点_如果有多个节点请配置多个，节点之间以‘ ’空隔分隔。
