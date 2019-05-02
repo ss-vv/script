@@ -251,8 +251,8 @@ fi
 
 
 # 消息队列服务器地址和端口
-if [ -f $WEBSITE"/mreport-service.properties" ]; then
-sed -i 's#^rocketMQ.namesrvAddr=.*$#rocketMQ.namesrvAddr='"$rocketMQ_namesrvAddr"'#' $WEBSITE/mreport-service.properties
+if [ -f $WEBSITE"/service-mreport-conf.properties" ]; then
+sed -i 's#^rocketMQ.namesrvAddr=.*$#rocketMQ.namesrvAddr='"$rocketMQ_namesrvAddr"'#' $WEBSITE/service-mreport-conf.properties
 fi
 
 
