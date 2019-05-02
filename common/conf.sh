@@ -257,6 +257,14 @@ fi
 
 
 
+# 消息队列服务器地址和端口
+if [ -f $WEBSITE"/service-activity-conf.properties" ]; then
+sed -i 's#^rocketMQ.namesrvAddr=.*$#rocketMQ.namesrvAddr='"$rocketMQ_namesrvAddr"'#' $WEBSITE/service-activity-conf.properties
+fi
+
+
+
+
 # [mongo-conf.properties]
 if [ -f $WEBSITE"/mongo-conf.properties" ]; then
 # mongoDb服务器地址

@@ -28,8 +28,8 @@
       <file leaf-file-name="conf.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/conf.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="241" column="2" lean-forward="false" selection-start-line="241" selection-start-column="0" selection-end-line="241" selection-end-column="2" />
+            <state relative-caret-position="507">
+              <caret line="263" column="0" lean-forward="true" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -850,11 +850,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556801230977</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="dev">
+      <created>1556801807807</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1556801807807</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22854000" />
+    <option name="totallyTimeSpent" value="23038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -1326,8 +1333,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/conf.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="241" column="2" lean-forward="false" selection-start-line="241" selection-start-column="0" selection-end-line="241" selection-end-column="2" />
+        <state relative-caret-position="507">
+          <caret line="263" column="0" lean-forward="true" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
           <folding />
         </state>
       </provider>
