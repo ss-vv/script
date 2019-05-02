@@ -177,7 +177,7 @@ sed -i 's#^shiro.auth.host=.*$#shiro.auth.host='"$shiro_auth_host"'#' $WEBSITE/r
 # Gather数据redis服务器地址
 sed -i 's#^gather.redis.host=.*$#gather.redis.host='"$gather_redis_host"'#' $WEBSITE/redis-conf.properties
 # gameApi数据redis服务器地址
-sed -i 's#^gameApi.redis.hosts=.*$#gameApi.redis.hosts='"$gameApi_redis_host"'#' $WEBSITE/redis-conf.properties
+sed -i 's#^gameApi.redis.host=.*$#gameApi.redis.host='"$gameApi_redis_host"'#' $WEBSITE/redis-conf.properties
 # 体育赔率数据redis服务器地址
 sed -i 's#^odds.redis.host=.*$#odds.redis.host='"$odds_redis_host"'#' $WEBSITE/redis-conf.properties
 
