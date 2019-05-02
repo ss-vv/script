@@ -17,6 +17,7 @@ for   var  in   $ALLPKG
     echo "$base_path/script/$project/$env/conf.sh $apps_path/work/$var/WEB-INF/classes/conf"
          source $base_path/script/$project/$env/conf.sh $apps_path/work/$var/WEB-INF/classes/conf $var
   done
+  echo -e "$ALLPKG"
 for   var  in   $ALLPKG
   do
       echo "cd  $apps_path/work/$var/"
