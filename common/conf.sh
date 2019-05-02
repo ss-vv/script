@@ -234,6 +234,29 @@ if [ -f $WEBSITE"/mdcenter-mq-conf.properties" ]; then
 sed -i 's#^rocketMQ.namesrvAddr=.*$#rocketMQ.namesrvAddr='"$rocketMQ_namesrvAddr"'#' $WEBSITE/mdcenter-mq-conf.properties
 fi
 
+
+
+# 消息队列服务器地址和端口
+if [ -f $WEBSITE"/boss-api-conf.properties" ]; then
+sed -i 's#^rocketMQ.namesrvAddr=.*$#rocketMQ.namesrvAddr='"$rocketMQ_namesrvAddr"'#' $WEBSITE/boss-api-conf.properties
+fi
+
+
+
+# 消息队列服务器地址和端口
+if [ -f $WEBSITE"/service-boss-conf.properties" ]; then
+sed -i 's#^rocketMQ.namesrvAddr=.*$#rocketMQ.namesrvAddr='"$rocketMQ_namesrvAddr"'#' $WEBSITE/service-boss-conf.properties
+fi
+
+
+
+# 消息队列服务器地址和端口
+if [ -f $WEBSITE"/mreport-service.properties" ]; then
+sed -i 's#^rocketMQ.namesrvAddr=.*$#rocketMQ.namesrvAddr='"$rocketMQ_namesrvAddr"'#' $WEBSITE/mreport-service.properties
+fi
+
+
+
 # [mongo-conf.properties]
 if [ -f $WEBSITE"/mongo-conf.properties" ]; then
 # mongoDb服务器地址
