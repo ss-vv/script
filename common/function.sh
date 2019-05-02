@@ -19,11 +19,11 @@ function get_container_name(){
     fi
 
     if [[ $docker_new == true ]]; then
-       # return_str="${project}_${app_name}-${host_name: -1}-b"
-        return_str="${project}-${app_name}"
+         return_str="${project}_${app_name}-${host_name: -1}-b"
+       # return_str="${project}-${app_name}"
     else
-       # return_str="${project}-${app_name}.${host_name}"
-        return_str="${project}-${app_name}"
+         return_str="${project}-${app_name}.${host_name}"
+       # return_str="${project}-${app_name}"
     fi
     echo $return_str
 }
