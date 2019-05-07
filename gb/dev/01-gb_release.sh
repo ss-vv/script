@@ -21,7 +21,7 @@ done
 }
 
 line=$1
-options_srv='boss-api  fserver lt-service mobile-api schedule api boss-service consumer-service main-service message-service service-activity cache-service cp-schedule mreport-service service-api'
+options_srv='boss-api  fserver lt-service mobile-api schedule api boss-service consumer-service main-service message-service service-activity cache-service cp-schedule mreport-service service-api companies-service'
 options_app='acenter ccenter mdcenter msites tcenter lottery pcenter boss lottery-mobile mcenter mobile'
 options_all="$options_srv $options_app"
 
