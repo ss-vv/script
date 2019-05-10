@@ -147,3 +147,6 @@ user_flow_list_ids=''
 processor_jar_url='file:/usr/local/gather-client/WEB-INF/lib/processor-1218-SNAPSHOT.jar'
 
 protocol=https
+
+
+freemaker_template_root_path=http://{0}:80{site.context.path}/ftl/

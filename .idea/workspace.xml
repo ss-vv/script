@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e79bf873-f0b2-496b-84e7-813778d66d86" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/conf.sh" afterPath="$PROJECT_DIR$/common/conf.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/dev/01-gb_release.sh" afterPath="$PROJECT_DIR$/gb/dev/01-gb_release.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gb/dev/_variable.sh" afterPath="$PROJECT_DIR$/gb/dev/_variable.sh" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,66 +15,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_variable.sh" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_variable.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gb/dev/_variable.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="147" lean-forward="true" selection-start-line="21" selection-start-column="131" selection-end-line="21" selection-end-column="147" />
+            <state relative-caret-position="617">
+              <caret line="143" column="10" lean-forward="true" selection-start-line="143" selection-start-column="10" selection-end-line="143" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conf.sh" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/common/conf.sh">
+      <file leaf-file-name="_variable.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gb/live/_variable.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="287" column="28" lean-forward="true" selection-start-line="287" selection-start-column="28" selection-end-line="287" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="01-gb_release.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gb/dev/01-gb_release.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1557249408528" expanded="true" signature="66065:66107" ph="..." />
-                <marker date="1557249408528" expanded="true" signature="66065:66125" ph="..." />
-                <marker date="1557249408528" expanded="true" signature="66065:66138" ph="..." />
-                <marker date="1557249408528" expanded="true" signature="66065:66153" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modules.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="463">
+              <caret line="138" column="20" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -85,8 +39,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>gat</find>
-      <find>gather-conf</find>
       <find>monitor-conf.properties</find>
       <find>gah-conf.properties</find>
       <find>ga-conf.properties</find>
@@ -115,6 +67,8 @@
       <find>rocketMQ_namesrvAddr</find>
       <find>mreport-service</find>
       <find>consumer-service</find>
+      <find>freemaker.template.root.path</find>
+      <find>freemaker_template_root_path</find>
     </findStrings>
     <replaceStrings>
       <replace>gb</replace>
@@ -148,9 +102,9 @@
         <option value="$PROJECT_DIR$/common/function.sh" />
         <option value="$PROJECT_DIR$/gb/dev/conf.sh" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/gb/dev/_variable.sh" />
         <option value="$PROJECT_DIR$/common/conf.sh" />
         <option value="$PROJECT_DIR$/gb/dev/01-gb_release.sh" />
+        <option value="$PROJECT_DIR$/gb/dev/_variable.sh" />
       </list>
     </option>
   </component>
@@ -170,10 +124,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="width" value="1934" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -191,7 +144,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -205,22 +157,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -674,7 +613,8 @@
       <workItem from="1556710470994" duration="4000" />
       <workItem from="1556710569433" duration="52000" />
       <workItem from="1556711391321" duration="6770000" />
-      <workItem from="1557247037246" duration="869000" />
+      <workItem from="1557247037246" duration="1480000" />
+      <workItem from="1557475525962" duration="179000" />
     </task>
     <task id="LOCAL-00001" summary="dev">
       <created>1556711456176</created>
@@ -914,14 +854,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557247087073</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="dev">
+      <created>1557249474955</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1557249474955</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24801000" />
+    <option name="totallyTimeSpent" value="25591000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-7" y="0" width="1934" height="1047" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -937,9 +884,9 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21588486" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21824974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33296824" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -980,13 +927,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/fuction.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/unpackage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1270,23 +1210,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gb/live/_variable.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="138" column="20" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1557249408528" expanded="true" signature="66065:66107" ph="..." />
-            <marker date="1557249408528" expanded="true" signature="66065:66125" ph="..." />
-            <marker date="1557249408528" expanded="true" signature="66065:66138" ph="..." />
-            <marker date="1557249408528" expanded="true" signature="66065:66153" ph="..." />
+            <marker date="1557475678817" expanded="true" signature="63845:63887" ph="..." />
+            <marker date="1557475678817" expanded="true" signature="63845:63905" ph="..." />
+            <marker date="1557475678817" expanded="true" signature="63845:63918" ph="..." />
+            <marker date="1557475678817" expanded="true" signature="63845:63933" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/conf.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="200" column="104" lean-forward="true" selection-start-line="200" selection-start-column="76" selection-end-line="200" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gb/dev/01-gb_release.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1306,26 +1255,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gb/test/_variable.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="62" column="54" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gb/live/_variable.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="138" column="20" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gb/dev/_variable.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="147" lean-forward="true" selection-start-line="21" selection-start-column="131" selection-end-line="21" selection-end-column="147" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gb/dev/01-gb_release.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/conf.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="287" column="28" lean-forward="true" selection-start-line="287" selection-start-column="28" selection-end-line="287" selection-end-column="28" />
+        <state relative-caret-position="617">
+          <caret line="143" column="10" lean-forward="true" selection-start-line="143" selection-start-column="10" selection-end-line="143" selection-end-column="10" />
           <folding />
         </state>
       </provider>
