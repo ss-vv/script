@@ -25,7 +25,7 @@ AS3RD=""
 CPPKG="sql.war rcenter.war"
 
 # --------------------------------------
-docker_new=true
+docker_new=false
 
 # fserver
 filesite_url='http://{0}/gb-fserver/fserver'
