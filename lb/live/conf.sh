@@ -29,7 +29,6 @@ fi
 
 
 # [db.properties]
-if [ -f $WEBSITE"/db-conf.properties" ]; then
     # 用户密码是否需要解密
     sed -i 's#^password.decrypt=.*$#password.decrypt='"$password_decrypt"'#' $WEBSITE/db.properties
     # Boss库连接地址
@@ -38,7 +37,7 @@ if [ -f $WEBSITE"/db-conf.properties" ]; then
     sed -i 's#^bossDataSource.username=.*$#bossDataSource.username='"$bossDataSource_username"'#' $WEBSITE/db.properties
     # Boss库用户密码
     sed -i 's#^bossDataSource.password=.*$#bossDataSource.password='"$bossDataSource_password"'#' $WEBSITE/db.properties
-fi
+
 
 
 
