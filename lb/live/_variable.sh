@@ -28,7 +28,7 @@ CPPKG="sql.war rcenter.war"
 docker_new=false
 
 # fserver
-filesite_url='http://{0}/gb-fserver/fserver'
+filesite_url='http://lb-tengine-fserver/fserver/'
 file_upload_tmp='/data/upload/tmp'
 file_upload_data='/data/upload/data'
 
