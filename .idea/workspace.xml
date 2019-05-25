@@ -2,50 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e79bf873-f0b2-496b-84e7-813778d66d86" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/live/conf.sh.0404" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/live/conf.sh.bak20180528" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/live/00-package.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/live/01-release.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/live/02-someone-release.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/live/03-update-out-site-gather-client.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/live/04-update-out-site-process.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/live/T-03-update-out-site-gather-client.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/live/T-04-update-out-site-process.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/live/_variable.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/live/_variable.sh.0404" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/live/_variable.sh.bak" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/live/_variable.sh.bak20180213" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/live/_variable.sh.bak20180528" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/live/app_update_new.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/live/conf.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/live/function.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/live/package.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/live/package_batch.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/live/release.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/live/release_bak.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/live/service_stop_new.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/live/tomcat_start_new.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/live/tomcat_stop_new.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/test/_variable.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/test/conf.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/test/package.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/test/package_batch.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/test/release.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/test/release_bak.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/test/sp_create.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/test/sp_restart.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/test/sp_server_stop.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/test/sp_tomcat_start.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/test/sp_tomcat_stop.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/test/sp_update.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/test/sp_web_index.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/test/sp_web_index_one.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/test/tengine_create.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/test/tengine_reload.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/test/tengine_restart.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lb/test/tengine_update.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp/live/_variable.sh" afterPath="$PROJECT_DIR$/sp/live/_variable.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lb/live/_variable.sh" afterPath="$PROJECT_DIR$/lb/live/_variable.sh" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,21 +15,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_variable.sh" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_variable.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lb/live/_variable.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="69" column="6" lean-forward="true" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
+            <state relative-caret-position="220">
+              <caret line="79" column="10" lean-forward="true" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conf.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="conf.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lb/live/conf.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+              <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -149,8 +107,8 @@
         <option value="$PROJECT_DIR$/sp/live/01-sp_release.sh" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/sp/live/_variable.sh" />
-        <option value="$PROJECT_DIR$/lb/live/_variable.sh" />
         <option value="$PROJECT_DIR$/lb/live/conf.sh" />
+        <option value="$PROJECT_DIR$/lb/live/_variable.sh" />
       </list>
     </option>
   </component>
@@ -696,7 +654,7 @@
       <workItem from="1556711391321" duration="6770000" />
       <workItem from="1557247037246" duration="1480000" />
       <workItem from="1557475525962" duration="179000" />
-      <workItem from="1558778352704" duration="849000" />
+      <workItem from="1558778352704" duration="991000" />
     </task>
     <task id="LOCAL-00001" summary="dev">
       <created>1556711456176</created>
@@ -957,11 +915,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557566583467</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="lb">
+      <created>1558779210518</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1558779210518</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27970000" />
+    <option name="totallyTimeSpent" value="28112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -975,7 +940,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1016,7 +981,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dev" />
-    <option name="LAST_COMMIT_MESSAGE" value="dev" />
+    <MESSAGE value="lb" />
+    <option name="LAST_COMMIT_MESSAGE" value="lb" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1212,6 +1178,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1356,18 +1323,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lb/live/_variable.sh">
+    <entry file="file://$PROJECT_DIR$/lb/live/conf.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="69" column="6" lean-forward="true" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
+        <state relative-caret-position="209">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lb/live/conf.sh">
+    <entry file="file://$PROJECT_DIR$/lb/live/_variable.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="220">
+          <caret line="79" column="10" lean-forward="true" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
           <folding />
         </state>
       </provider>
