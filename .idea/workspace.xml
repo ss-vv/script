@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e79bf873-f0b2-496b-84e7-813778d66d86" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lb/live/_variable.sh" afterPath="$PROJECT_DIR$/lb/live/_variable.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lb/live/conf.sh" afterPath="$PROJECT_DIR$/lb/live/conf.sh" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,21 +15,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_variable.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_variable.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lb/live/_variable.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="75" column="47" lean-forward="false" selection-start-line="75" selection-start-column="47" selection-end-line="75" selection-end-column="47" />
+            <state relative-caret-position="292">
+              <caret line="60" column="33" lean-forward="true" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conf.sh" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_variable.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sp/test/_variable.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conf.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lb/live/conf.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="33" column="72" lean-forward="false" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="72" />
+            <state relative-caret-position="-2164">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -69,8 +79,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>rocketMQ_namesrvAddr</find>
-      <find>mreport-service</find>
       <find>consumer-service</find>
       <find>freemaker.template.root.path</find>
       <find>freemaker_template_root_path</find>
@@ -99,6 +107,8 @@
       <find>g</find>
       <find>gb-teng</find>
       <find>filesite_url</find>
+      <find>rocketMQ.namesrvAddr</find>
+      <find>rocketMQ_namesrvAddr</find>
     </findStrings>
     <replaceStrings>
       <replace>gb</replace>
@@ -137,8 +147,8 @@
         <option value="$PROJECT_DIR$/sp/live/01-sp_release.sh" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/sp/live/_variable.sh" />
-        <option value="$PROJECT_DIR$/lb/live/conf.sh" />
         <option value="$PROJECT_DIR$/lb/live/_variable.sh" />
+        <option value="$PROJECT_DIR$/lb/live/conf.sh" />
       </list>
     </option>
   </component>
@@ -684,7 +694,7 @@
       <workItem from="1556711391321" duration="6770000" />
       <workItem from="1557247037246" duration="1480000" />
       <workItem from="1557475525962" duration="179000" />
-      <workItem from="1558778352704" duration="2947000" />
+      <workItem from="1558778352704" duration="3819000" />
     </task>
     <task id="LOCAL-00001" summary="dev">
       <created>1556711456176</created>
@@ -987,11 +997,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558783623807</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="lb">
+      <created>1558783720120</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1558783720120</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30068000" />
+    <option name="totallyTimeSpent" value="30940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -1086,13 +1103,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp/test/_variable.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1393,18 +1403,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lb/live/conf.sh">
+    <entry file="file://$PROJECT_DIR$/lb/live/_variable.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="33" column="72" lean-forward="false" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="72" />
+        <state relative-caret-position="292">
+          <caret line="60" column="33" lean-forward="true" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lb/live/_variable.sh">
+    <entry file="file://$PROJECT_DIR$/sp/test/_variable.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="75" column="47" lean-forward="false" selection-start-line="75" selection-start-column="47" selection-end-line="75" selection-end-column="47" />
+        <state relative-caret-position="326">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lb/live/conf.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2164">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>

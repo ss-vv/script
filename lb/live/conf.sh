@@ -133,136 +133,14 @@ sed -i 's#uploadPath=.*$#uploadPath='"$file_upload_data"'#' $WEBSITE/uploadConst
 fi
 
 # 消息队列服务器地址和端口
-if [ -f $WEBSITE"/boss-conf.properties" ]; then
+if [ -f $WEBSITE"/mq-conf.properties" ]; then
 sed -i 's#^rocketMQ.namesrvAddr=.*$#rocketMQ.namesrvAddr='"$rocketMQ_namesrvAddr"'#' $WEBSITE/boss-conf.properties
-fi
-
-# 消息队列服务器地址和端口
-if [ -f $WEBSITE"/mdcenter-mq-conf.properties" ]; then
-sed -i 's#^rocketMQ.namesrvAddr=.*$#rocketMQ.namesrvAddr='"$rocketMQ_namesrvAddr"'#' $WEBSITE/mdcenter-mq-conf.properties
-fi
-
-# [mongo-conf.properties]
-if [ -f $WEBSITE"/mongo-conf.properties" ]; then
-# mongoDb服务器地址
-sed -i 's#^mongodb.host=.*$#mongodb.host='"$mongodb_host"'#' $WEBSITE/mongo-conf.properties
-# mongoDb服务器端口
-sed -i 's#^mongodb.port=.*$#mongodb.port='"$mongodb_port"'#' $WEBSITE/mongo-conf.properties
-fi
-
-
-# [monitor-conf.properties]
-if [ -f $WEBSITE"/monitor-conf.properties" ]; then
-# 消息队列服务器地址和端口
-sed -i 's#^rocketMQ.namesrvAddr=.*$#rocketMQ.namesrvAddr='"$rocketMQ_namesrvAddr"'#' $WEBSITE/monitor-conf.properties
-# 消息队列本地异常信息存放目录
-sed -i 's#^local.store.db.home=.*$#local.store.db.home='"$rdb_dir"'#' $WEBSITE/monitor-conf.properties
-fi
-
-# [central-conf.properties]
-if [ -f $WEBSITE"/central-conf.properties" ]; then
-# 消息队列服务器地址和端口
-sed -i 's#^rocketMQ.namesrvAddr=.*$#rocketMQ.namesrvAddr='"$rocketMQ_namesrvAddr"'#' $WEBSITE/central-conf.properties
-# 消息队列本地异常信息存放目录
-sed -i 's#^local.store.db.home=.*$#local.store.db.home='"$rdb_dir"'#' $WEBSITE/central-conf.properties
-fi
-
-# 结算容器配置
-# [settlement-conf.properties]
-if [ -f $WEBSITE"/settlement-conf.properties" ]; then
-# 消息队列服务器地址和端口
-sed -i 's#^rocketMQ.namesrvAddr=.*$#rocketMQ.namesrvAddr='"$rocketMQ_namesrvAddr"'#' $WEBSITE/settlement-conf.properties
-# 消息队列本地异常信息存放目录
-sed -i 's#^local.store.db.home=.*$#local.store.db.home='"$rdb_dir"'#' $WEBSITE/settlement-conf.properties
-fi
-
-#game-api采集器配置
-# [gather-conf.properties]
-if [ -f $WEBSITE"/gather-conf.properties" ]; then
-# Zookeeper的url及端口,多个用半角空格分隔
-if [ "$app" == "gather-client" ]; then
-    #echo sed -i 's#^gather.zookeeper.url=.*$#gather.zookeeper.url='"$gather_zookeeper_url_client"'#' $WEBSITE/gather-conf.properties
-    sed -i 's#^gather.zookeeper.url=.*$#gather.zookeeper.url='"$gather_zookeeper_url_client"'#' $WEBSITE/gather-conf.properties
-    sed -i 's#^gather.zookeeper.node.prefix=.*$#gather.zookeeper.node.prefix='"$gather_zookeeper_node_prefix_client"'#' $WEBSITE/gather-conf.properties
-    sed -i "s/^gather.zookeeper.node=.*$/gather.zookeeper.node="$gather_zookeeper_node"/" $WEBSITE/gather-conf.properties
-    sed -i 's#^gather.user=.*$#gather.user='"$app"'#' $WEBSITE/gather-conf.properties
-    sed -i "s/^gather.password=.*$/gather.password="$app"/" $WEBSITE/gather-conf.properties
-    sed -i "s/^gather.cluster.group=.*$/gather.cluster.group="$app"/" $WEBSITE/gather-conf.properties
-fi
-if [ "$app" == "manager" ] || [ "$app" == "gather-server" ]  || [ "$app" == "service" ] || [ "$app" == "api" ]  || [ "$app" == "service-api" ]  || [ "$app" == "central" ] || [ "$app" == "schedule" ]; then
-    #echo sed -i 's#^gather.zookeeper.url=.*$#gather.zookeeper.url='"$gather_zookeeper_url_server"'#' $WEBSITE/gather-conf.properties
-    # Zookeeper的url及端口,多个用半角空格分隔
-    sed -i 's#^gather.zookeeper.url=.*$#gather.zookeeper.url='"$gather_zookeeper_url"'#' $WEBSITE/gather-conf.properties
-    sed -i 's#^gather.zookeeper.node.prefix=.*$#gather.zookeeper.node.prefix='"$gather_zookeeper_node_prefix"'#' $WEBSITE/gather-conf.properties
-    sed -i "s/^gather.zookeeper.node=.*$/gather.zookeeper.node="$gather_zookeeper_node"/" $WEBSITE/gather-conf.properties
-    sed -i 's#^gather.user=.*$#gather.user='"$app"'#' $WEBSITE/gather-conf.properties
-    sed -i "s/^gather.password=.*$/gather.password="$app"/" $WEBSITE/gather-conf.properties
-    sed -i "s/^gather.cluster.group=.*$/gather.cluster.group="$app"/" $WEBSITE/gather-conf.properties
-fi
-
-# 采集器版本号
-sed -i 's#^gather.version=.*$#gather.version='"$gather_version"'#' $WEBSITE/gather-conf.properties
-sed -i 's#^processor.jar.url=.*$#processor.jar.url='"$processor_jar_url"'#' $WEBSITE/gather-conf.properties
-sed -i 's#^include.category=.*$#include.category='"$include_category"'#' $WEBSITE/gather-conf.properties
-sed -i 's#^user.flow.list.ids=.*$#user.flow.list.ids='"$user_flow_list_ids"'#' $WEBSITE/gather-conf.properties
-
 fi
 
 
 # [base.properties]
 if [ -f $WEBSITE"/base.properties" ]; then
 sed -i 's#^dubbo.version=.*$#dubbo.version='"$dubbo_version"'#' $WEBSITE/base.properties
-# 反向代理采集的nginx的地址
-sed -i 's#^gather.zookeeper.node.nginx=.*$#gather.zookeeper.node.nginx='"$gather_zookeeper_node_nginx"'#' $WEBSITE/base.properties
-# 是否由nginx反向代理
-sed -i 's#^gather.nginx.channel=.*$#gather.nginx.channel='"true"'#' $WEBSITE/base.properties
-# 访问级别
-sed -i 's#^gather.zookeeper.node.prefix=.*$#gather.zookeeper.node.prefix='"inner"'#' $WEBSITE/base.properties
-# zookeeper节点前缀
-sed -i "s/^gather.service.port=.*$/gather.service.port=9000/" $WEBSITE/base.properties
-
-sed -i "s/^data.chain.init=.*$/data.chain.init="$data_chain_init"/" $WEBSITE/base.properties
-sed -i "s/^data.chain.min=.*$/data.chain.min="$data_chain_min"/" $WEBSITE/base.properties
-sed -i "s/^data.chain.max=.*$/data.chain.max="$data_chain_max"/" $WEBSITE/base.properties
-sed -i "s/^command.chain.init=.*$/command.chain.init="$command_chain_init"/" $WEBSITE/base.properties
-sed -i "s/^gather.cluster.group=.*$/gather.cluster.group="$gather_cluster_group"/" $WEBSITE/base.properties
-sed -i "s/^include.category=.*$/include.category="$include_category"/" $WEBSITE/base.properties
-
-sed -i "s/^gather.version=.*$/gather.version="$gather_version"/" $WEBSITE/base.properties
-sed -i "s/^gather.zookeeper.url=.*$/gather.zookeeper.url="$gather_zookeeper_url"/" $WEBSITE/base.properties
-sed -i "s/^gather.zookeeper.node=.*$/gather.zookeeper.node="$gather_zookeeper_node"/" $WEBSITE/base.properties
-
-#gather.password
-sed -i "s|^gather.password=.*$|gather.password=$gather_password|" $WEBSITE/base.properties
-#gather.user
-sed -i "s|^gather.user=.*$|gather.user=$gather_user|" $WEBSITE/base.properties
-
 fi
 
-# [boss-conf.properties]
-if [ -f $WEBSITE"/boss-conf.properties" ]; then
-    # idc间同步数据的url
-    sed -i 's#^sync.idc.url=.*$#sync.idc.url='"$sync_idc_url"'#' $WEBSITE/boss-conf.properties
-fi
-
-if [ -f $WEBSITE"/central-conf.properties" ]; then
-    # mq cache
-    sed -i 's#^local.store.db.home=.*$#local.store.db.home=/var/data/mq/rdb#' $WEBSITE/central-conf.properties
-fi
-
-# ---------- web-ds-conf.properties  Start 20171014----------
-# [web-ds-conf.properties]
-if [ -f $WEBSITE"/web-ds-conf.properties" ]; then
-    sed -i "s|^ds.id.model.lottery=.*$|ds.id.model.lottery=${ds_id_model_lottery}|"  $WEBSITE/web-ds-conf.properties
-    sed -i "s|^ds.id.model.mock.account=.*$|ds.id.model.mock.account=${ds_id_model_mock_account}|"  $WEBSITE/web-ds-conf.properties
-    sed -i "s|^ds.id.model.platform=.*$|ds.id.model.platform=${ds_id_model_platform}|"  $WEBSITE/web-ds-conf.properties
-fi
-# ----------   web-ds-conf.properties  End 20171014 ----------
-
-
-# [api-conf.properties]
-if [ -f $WEBSITE"/api-conf.properties" ]; then
-    sed -i "s|^protocol=.*$|protocol=${protocol}|"  $WEBSITE/api-conf.properties
-fi
-# ----------   api-conf.properties  End 20180217 ----------
 
