@@ -68,12 +68,12 @@ mdsite_ip='lb-mdcenter'
 password_decrypt='false'
 
 # boss
-bossDataSource_url='jdbc:postgresql://pg-lb.d1:5432/lb-boss?characterEncoding=UTF-8'
+bossDataSource_url='jdbc:postgresql://pg-lb:5432/lb-boss?characterEncoding=UTF-8'
 bossDataSource_username='lb-manager'
 bossDataSource_password='asfwqefadfafWDFwewEFFFwefe'
 
 # stat
-statDataSource_url='jdbc:postgresql://pg-lb.d1:5432/lb-stat?characterEncoding=UTF-8'
+statDataSource_url='jdbc:postgresql://pg-lb:5432/lb-stat?characterEncoding=UTF-8'
 statDataSource_username='lb-stat'
 statDataSource_password='asfwqefadfafWDFwewEFFFwefe'
 
