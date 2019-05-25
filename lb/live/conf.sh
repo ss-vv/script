@@ -134,7 +134,7 @@ fi
 
 # 消息队列服务器地址和端口
 if [ -f $WEBSITE"/mq-conf.properties" ]; then
-sed -i 's#^rocketMQ.namesrvAddr=.*$#rocketMQ.namesrvAddr='"$rocketMQ_namesrvAddr"'#' $WEBSITE/boss-conf.properties
+sed -i 's#^rocketMQ.namesrvAddr=.*$#rocketMQ.namesrvAddr='"$rocketMQ_namesrvAddr"'#' $WEBSITE/mq-conf.properties
 fi
 
 

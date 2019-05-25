@@ -38,8 +38,8 @@
       <file leaf-file-name="conf.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lb/live/conf.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2164">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="249">
+              <caret line="137" column="2" lean-forward="true" selection-start-line="137" selection-start-column="2" selection-end-line="137" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -694,7 +694,7 @@
       <workItem from="1556711391321" duration="6770000" />
       <workItem from="1557247037246" duration="1480000" />
       <workItem from="1557475525962" duration="179000" />
-      <workItem from="1558778352704" duration="3819000" />
+      <workItem from="1558778352704" duration="3882000" />
     </task>
     <task id="LOCAL-00001" summary="dev">
       <created>1556711456176</created>
@@ -1004,11 +1004,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558783720120</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="lb">
+      <created>1558786019182</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1558786019182</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30940000" />
+    <option name="totallyTimeSpent" value="31003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -1421,8 +1428,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lb/live/conf.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2164">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="249">
+          <caret line="137" column="2" lean-forward="true" selection-start-line="137" selection-start-column="2" selection-end-line="137" selection-end-column="2" />
           <folding />
         </state>
       </provider>
