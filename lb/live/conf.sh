@@ -29,7 +29,7 @@ fi
 
 
 # [db.properties]
-if [ -f $WEBSITE"/db.properties" ]; then
+if [ -f $WEBSITE"/db-conf.properties" ]; then
     # 用户密码是否需要解密
     sed -i 's#^password.decrypt=.*$#password.decrypt='"$password_decrypt"'#' $WEBSITE/db.properties
     # Boss库连接地址
